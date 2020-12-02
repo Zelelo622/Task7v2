@@ -1,4 +1,4 @@
-package ru.vsu.num6.gui.frame;
+package ru.vsu.num6.gui.view;
 
 import ru.vsu.num6.gui.listener.CalcSumButtonListener;
 
