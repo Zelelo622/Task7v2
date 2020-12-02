@@ -1,4 +1,4 @@
-package ru.vsu.num6.gui.Listener;
+package ru.vsu.num6.gui.listener;
 
 import ru.vsu.num6.logic.SumArrayElements;
 import ru.vsu.num6.gui.utils.ArrayUtil;

@@ -1,4 +1,4 @@
-package ru.vsu.num6.gui.view;
+package ru.vsu.num6.gui.frame;
 
 import javax.swing.*;
 

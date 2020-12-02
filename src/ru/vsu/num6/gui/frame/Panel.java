@@ -1,6 +1,6 @@
-package ru.vsu.num6.gui.view;
+package ru.vsu.num6.gui.frame;
 
-import ru.vsu.num6.gui.Listener.CalcSumButtonListener;
+import ru.vsu.num6.gui.listener.CalcSumButtonListener;
 
 import javax.swing.*;
 import java.awt.*;

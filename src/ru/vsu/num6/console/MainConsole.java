@@ -18,7 +18,7 @@ public class MainConsole {
         } catch (InputMismatchException e) {
             System.out.println("Invalid character entered.");
         } catch (NegativeArraySizeException e) {
-            System.out.println("Introduced negative array size");
+            System.out.println("Introduced negative array size.");
         }
         int[] array = new int[0];
         printResults(

@@ -1,6 +1,6 @@
 package ru.vsu.num6.gui;
 
-import ru.vsu.num6.gui.view.Frame;
+import ru.vsu.num6.gui.frame.Frame;
 
 public class MainGUI {
 
