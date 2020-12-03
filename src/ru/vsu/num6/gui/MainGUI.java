@@ -1,11 +1,11 @@
 package ru.vsu.num6.gui;
 
-import ru.vsu.num6.gui.view.Frame;
+import ru.vsu.num6.gui.view.ProgramFrame;
 
 public class MainGUI {
 
     public static void main(String[] args) {
-        Frame app = new Frame();
+        ProgramFrame app = new ProgramFrame();
         app.setVisible(true);
     }
 }

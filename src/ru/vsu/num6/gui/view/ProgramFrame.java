@@ -2,11 +2,11 @@ package ru.vsu.num6.gui.view;
 
 import javax.swing.*;
 
-public class Frame extends JFrame {
+public class ProgramFrame extends JFrame {
 
-    public Frame() {
-        Panel panel = new Panel();
-        this.add(panel);
+    public ProgramFrame() {
+        ProgramPanel programPanel = new ProgramPanel();
+        this.add(programPanel);
         this.setTitle("Task7");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

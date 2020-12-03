@@ -11,16 +11,18 @@ public class MainConsole {
     public static void main(String[] args) {
         SumArrayElements sumArrayElements = new SumArrayElements();
         System.out.println("PROGRAM");
+        int sizeArray = readInteger("size array --> ");
+        int[] array = new int[0];
+        if (sizeArray > 0) {
+            array = new int[sizeArray];
+        } else {
+            System.out.println("Introduced negative array size.");
+        }
         try {
-            int sizeArray = readInteger("size array --> ");
-            int[] array = new int[sizeArray];
             fillArrayWithValues(sizeArray, array);
         } catch (InputMismatchException e) {
             System.out.println("Invalid character entered.");
-        } catch (NegativeArraySizeException e) {
-            System.out.println("Introduced negative array size.");
         }
-        int[] array = new int[0];
         printResults(
                 sumArrayElements.findMinimumValueOfArray(array), sumArrayElements.findLargestValueOfArray(array),
                 sumArrayElements.getSumOfElements(array),

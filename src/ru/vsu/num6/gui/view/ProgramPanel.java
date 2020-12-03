@@ -7,14 +7,14 @@ import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class Panel extends JPanel {
+public class ProgramPanel extends JPanel {
     private final JButton calcButton = new JButton("Apply");
     private final JTextField inputArrText = new JTextField();
     private final JLabel labelInput = new JLabel("Enter array elements (separators is , ;):");
     private final JLabel labelOutput = new JLabel("Sum:");
     private final JTextField outputArrText = new JTextField();
 
-    public Panel() {
+    public ProgramPanel() {
         this.setLayout(null);
         addLabelInput();
         addInputArrText();
